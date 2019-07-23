@@ -11,5 +11,14 @@
 	3. Variaveis na página de inicio para mostrar na tela
 
  ## Desafio ##
-	Mude as páginas redatores e noticias, para objetos python. Em noticias use um objeto com as variaveis: Nome do redator, imagem, titulo, conteudo, Em redatores use um objeto com as variaveis: nome, foto, idade
+	Mude as páginas redatores e noticias, para objetos python. 
+	Em noticias use um objeto com as variaveis: 
+		- nome do redator
+		- imagem
+		- titulo
+		- conteudo
+	Em redatores use um objeto com as variaveis: 
+		- nome
+		- foto
+		- idade
 	E então, altere suas listas, para mostrar todas essas informações na tela
