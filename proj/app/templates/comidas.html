@@ -1,0 +1,18 @@
+{% extends "base.html"%}
+
+{% block titulo %}
+    Comidas
+{% endblock %}
+
+{% block conteudo %}
+    {% if comidas %}
+        <h1>{{nome}}</h1>
+        {% for comida in comidas %}
+            
+            <li>{{comida}}</li>
+        {% endfor %}
+    {% else %}
+       <h3> sem comidas pra vc :/</h3> 
+    {% endif %}
+
+{% endblock %}
